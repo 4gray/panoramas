@@ -6,4 +6,4 @@ latitude: 41.881832
 longitude: -87.623177
 ---
 
-<img src="/assets/images/rotterdam.jpg" alt="Rotterdam" />
+<img src="./assets/images/rotterdam.jpg" alt="Rotterdam" />

@@ -4,4 +4,4 @@ title:  "City Panorama, London"
 categories: great-britain
 ---
 
-<img src="/assets/images/london-view-from-brigde.jpg" alt="London" />
+<img src="./assets/images/london-view-from-brigde.jpg" alt="London" />

@@ -4,4 +4,4 @@ title:  "City Center, Prague"
 categories: czech
 ---
 
-<img src="/assets/images/prag-czech.jpg" alt="City Center, Prague" />
+<img src="./assets/images/prag-czech.jpg" alt="City Center, Prague" />

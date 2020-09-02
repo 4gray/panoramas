@@ -4,4 +4,4 @@ title:  "The Church of Saint Demetrius, Thessaloniki"
 categories: greece
 ---
 
-<img src="/assets/images/thessaloniki-greece.jpg" alt="The Church of Saint Demetrius, Thessaloniki, Greece" />
+<img src="./assets/images/thessaloniki-greece.jpg" alt="The Church of Saint Demetrius, Thessaloniki, Greece" />
