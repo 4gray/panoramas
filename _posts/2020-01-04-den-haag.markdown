@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "De Pier, Den Haag"
+categories: holland
+---
+
+<img src="/assets/images/den-haag.jpg" alt="The Hague / Den Haag" />

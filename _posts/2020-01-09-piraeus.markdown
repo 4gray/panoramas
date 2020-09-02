@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Piraeus, Athen"
+categories: greece
+---
+
+<img src="/assets/images/piraeus-greece.jpg" alt="Piraeus, Athen" />

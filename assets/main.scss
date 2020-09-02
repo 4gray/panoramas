@@ -1,0 +1,86 @@
+---
+---
+
+body {
+    font-family: 'Noto Sans JP', sans-serif !important;
+}
+
+a {
+    color: #111 !important;
+}
+
+
+.site-header, .site-title, .site-nav {
+    line-height: 100px !important;
+    height: 100px !important;
+}
+
+$content-width: 1400px;
+@import "minima";
+
+header {
+    background: #fff;
+}
+
+.main__content img {
+    box-shadow: 0px 8px 13px 2px #988c8c;
+    border: 1px solid #FFF;
+    border-radius: 10px;
+}
+
+.details {
+    p {
+        margin-bottom: 0;
+    }
+    img {
+        border: none !important;
+        border-radius: 0;
+        box-shadow: none;
+        background: #fff;
+    }
+    h1 {
+        padding: 0 0 10px 0;
+        font-size: 26px;
+    }
+
+    background: #fff;
+    box-shadow: 0px 8px 13px 2px #988c8c;
+}
+
+.img__title {
+    position: absolute;
+    background: #efe3e3b6;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 10px 0;
+}
+
+.post-title {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.site-footer {
+    background: #fff;
+}
+
+.post-nav {
+    font-size: 18px;
+    margin-bottom: 1em;
+    display: flex;
+    padding: 20px;
+}
+.post-nav div {
+    flex: 1 1 0;
+}
+.post-nav-next {
+    text-align: right;
+}
+
+.footer-heading {
+    display:none;
+}
+
+body {
+    background: url('https://image.freepik.com/free-vector/vintage-ornamental-flowers-background_52683-28040.jpg');
+}

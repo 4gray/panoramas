@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+{%- include head.html -%}
+
+<body>
+
+    {%- include header.html -%}
+    {{ content }}
+
+    {% if page.id == null %}
+        {%- include footer.html -%}
+    {% endif %}
+
+</body>
+
+</html>

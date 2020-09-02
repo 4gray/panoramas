@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Athen"
+categories: greece
+---
+
+<img src="/assets/images/athen.jpg" alt="Athen, Greece" />
