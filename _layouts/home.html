@@ -12,25 +12,16 @@ layout: default
             endif %} {%- if posts.size > 0 -%} {%- if page.list_title -%}
             <h2 class="post-list-heading">{{ page.list_title }}</h2>
             {%- endif -%}
-            <ul class="post-list">
-                {%- assign date_format = site.minima.date_format | default: "%b
-                %-d, %Y" -%} {%- for post in posts -%}
-                <li>
-                    <h3 class="img__title">
-                        <a
-                            class="post-link"
-                            href="{{ post.url | relative_url }}"
-                        >
-                            {{ post.title | escape }}
-                        </a>
-                    </h3>
-                    <div class="main__content">
-                        {%- if site.show_excerpts -%} {{ post.excerpt }} {%-
-                        endif -%}
-                    </div>
-                </li>
-                {%- endfor -%}
-            </ul>
+            {%- for post in posts -%}
+            <div class="main__content">
+                {{ post.excerpt | remove: '<p>' | remove: '</p>' }}
+                <div class="img__title">
+                    <a class="post-link" href="{{ post.url | relative_url }}">
+                        {{ post.title | escape }}
+                    </a>
+                </div>
+            </div>
+            {%- endfor -%}
 
             {% if site.paginate %}
             <div class="pager">
