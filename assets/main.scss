@@ -9,14 +9,19 @@ a {
     color: #111 !important;
 }
 
-
-.site-header, .site-title, .site-nav {
-    line-height: 100px !important;
-    height: 100px !important;
-}
-
 $content-width: 1400px;
 @import "minima";
+
+
+.site-header, .site-title, .site-nav {
+    line-height: 100px;
+    height: 100px;
+
+    @include media-query($on-palm) {
+        line-height: 60px !important;
+        height: 60px !important;
+    }
+}
 
 header {
     background: #fff;
@@ -47,12 +52,28 @@ header {
     box-shadow: 0px 8px 13px 2px #988c8c;
 }
 
-.img__title {
+h3.img__title {
     position: absolute;
     background: #efe3e3b6;
     display: inline-block;
     padding: 20px;
     border-radius: 10px 0;
+}
+
+@include media-query($on-palm) {
+    .details h1 {
+        font-size: 20px;
+    }
+    h3.img__title {
+        padding: 10px;
+        border-radius: 5px 0;
+    }
+    .post-link {
+        font-size: 18px !important;
+    }
+    .site-title {
+        font-size: 18px !important;
+    }
 }
 
 .post-title {
