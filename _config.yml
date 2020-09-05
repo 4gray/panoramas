@@ -3,7 +3,7 @@ title: Lovely taken panoramas
 description: >- # this means to ignore newlines until "baseurl:"
     All photos were taken by myself with an iPhone X and DJI Osmo Mobile 3.
 baseurl: "/panoramas" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://4gray.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username: 4gray
 permalink: /:title.html
